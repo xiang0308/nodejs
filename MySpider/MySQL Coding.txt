@@ -1,0 +1,22 @@
+MySQL默认的latin1。
+用得最多的应该是这3种字符集 gb2312，gbk，utf8
+---------------------------------------------------
+1.第一步调整MySQL 系统目录下面的这个文件
+C:\Program Files\MySQL\MySQL Server 5.5\my.ini  
+
+default-character-set=latin1 变成
+default-character-set=gbk
+
+2.第二步调整你对应的数据库数据目录下面的文件
+C:\ProgramData\MySQL\MySQL Server 5.5\data\test\db.opt
+
+default-character-set=utf8
+
+default-collation=utf8_general_ci
+	变成
+
+default-character-set=gbk
+default-collation=gbk_chinese_ci
+
+
+3.重新启到MySQL
