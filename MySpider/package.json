@@ -1,8 +1,8 @@
 {
-  "name": "cnblog Spider",
+  "name": "Web Page Spider",
   "version": "1.0.0",
-  "description": "cnblog spider ",
-  "main": "index.js",
+  "description": "splider - fetch site page key, content, title, url etc.",
+  "main": "main.js",
   "dependencies": {
     "async": "^1.5.0",
     "cheerio": "^0.19.0",
@@ -11,17 +11,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index",
-    "start": "node server.js"
+    "test": "node main",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chokcoco/cnblogReptile.git"
+    "url": "https://github.com/xiang0308/nodejs.git"
   },
-  "author": "Coco",
+  "author": "Wilson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chokcoco/cnblogReptile/issues"
+    "url": "https://github.com/xiang0308/nodejs/issues"
   },
-  "homepage": "https://github.com/chokcoco/cnblogReptile"
+  "homepage": "https://github.com/xiang0308/nodejs.git"
 }
